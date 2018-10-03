@@ -21,13 +21,7 @@ class BlogIndex extends React.Component {
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
-        >
-          <link
-            href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Sans"
-            rel="stylesheet"
-            type="text/css"
-          />
-        </Helmet>
+        />
         <Bio />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
