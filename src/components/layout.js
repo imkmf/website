@@ -6,6 +6,7 @@ import '../styles/style.css'
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
+    const filteredChildren = children.filter(c => !c.frontmatter)
     const rootPath = `${__PATH_PREFIX__}/`
     const header = (
       <h1
@@ -36,7 +37,7 @@ class Template extends React.Component {
         <div className="gutter" style={{ flex: '1' }} />
         <div style={{ flex: '2' }}>
           {header}
-          {children}
+          {filteredChildren}
         </div>
         <div className="gutter" style={{ flex: '1' }} />
       </div>
