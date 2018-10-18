@@ -12,9 +12,7 @@ I've been fond of TypeScript for a couple years now: I think that JavaScript is 
 
 There's many TypeScript success stories out there, and here's another addition: it's been a great addition to the [Byteconf](https://byteconf.com) stack. Rails compiles JS bundles as part of the deploy process, so there's been multiple instances that the TypeScript layer has stopped a bad deploy from going out. It's a great addition to any hobby project if only to save your butt.
 
-[Here's the slides from the talk](/typescript-talk). The talk is embedded below via [mdx-deck](https://github.com/jxnblk/mdx-deck) - arrow keys or clicking on the margins of the embed should work for slide transitions), if your browser decides to load it. Of course, some of the vibe of the talk is missed by not actually hearing the presentation part: I may flesh it out and try and present it again at some local meetups - maybe I'll add some video of that in the future if I get around to that stage.
+[Here's the slides from the talk](https://lucid-volhard-5fde8c.netlify.com/). Of course, some of the vibe of the talk is missed by not actually hearing the presentation part: I may flesh it out and try and present it again at some local meetups - maybe I'll add some video of that in the future if I get around to that stage.
 
 The source for the slides is [available on GitHub](https://github.com/signalnerve/react-typescript-talk) as well.
-
-<iframe style="padding: 20px 0; border: none; height: 400px; width: 100%;" src="/typescript-talk" />
 
