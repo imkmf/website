@@ -6,6 +6,19 @@
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+pre {
+  background: #333;
+  padding: 10px 5px;
+}
+
+pre code {
+  background: inherit;
+}
+
+code {
+  font-family: monospace;
+}
+
 hr {
   width: 66%;
   margin: 40px auto;
